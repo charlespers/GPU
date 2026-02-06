@@ -1,0 +1,11 @@
+Opcode, Mnemonic, Description
+0000, Add, Add two registers
+0001, Mul, Multiply two registers
+0010, Sub, Subtract two registers 
+0011, AND, Bitwise AND two registers 
+0100, OR, Bitwise OR two registers 
+0101, XOR, Bitwise XOR two registers 
+0110, MOV1, rD = IMM16  
+0111, ADD1, rD = rA + IMM16 
+1000, BRA, PC += IMM16 
+1001, EXIT, Warp finishes execution
