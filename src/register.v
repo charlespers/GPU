@@ -1,3 +1,6 @@
+Charles
+02/07/2026
+
 module regfile #(
     parameter THREADS = 4,
     parameter REGS = 16,
@@ -5,7 +8,7 @@ module regfile #(
 
 )(
     input wire clk,
-    input wire we,  // warp executer
+    input wire we,  // write enable
     input wire [THREADS-1:0] active_mask, // masking
     input wire [$clog2(REGS)-1:0] rd,
     input wire [$clog2(REGS)-1:0] rs1,
